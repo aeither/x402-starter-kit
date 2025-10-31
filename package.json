@@ -1,0 +1,27 @@
+{
+  "name": "x402-starter-kit",
+  "version": "1.0.0",
+  "description": "Minimal starter for building micropayment-enabled APIs using x402",
+  "type": "module",
+  "scripts": {
+    "server": "bun run src/server.ts",
+    "client": "bun run src/client.ts"
+  },
+  "dependencies": {
+    "@ai-sdk/groq": "^2.0.26",
+    "ai": "^5.0.82",
+    "axios": "^1.13.1",
+    "bs58": "^6.0.0",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "facilitators": "^0.0.7",
+    "x402-axios": "^0.7.0",
+    "x402-express": "^0.7.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.25",
+    "@types/node": "^20.19.24",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
