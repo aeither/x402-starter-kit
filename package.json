@@ -4,6 +4,7 @@
   "description": "Minimal starter for building micropayment-enabled APIs using x402",
   "type": "module",
   "scripts": {
+    "start": "bun run src/server/index.ts",
     "server": "bun run src/server/index.ts",
     "client": "bun run src/client/index.ts"
   },
