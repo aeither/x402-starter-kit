@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "start": "bun run src/server/index.ts",
-    "server": "bun run src/server/index.ts",
-    "client": "bun run src/client/index.ts"
+    "server": "bun run --hot src/server/index.ts",
+    "client": "bun run --hot src/client/index.ts"
   },
   "dependencies": {
     "@ai-sdk/groq": "^2.0.26",
