@@ -226,7 +226,7 @@ app.use(
       network: NETWORK,
     },
   },
-    // payai
+    payai
   )
 );
 
